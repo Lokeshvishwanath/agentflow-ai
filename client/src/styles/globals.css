@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-slate-950 text-slate-100; }
+  ::-webkit-scrollbar { @apply w-1.5; }
+  ::-webkit-scrollbar-track { @apply bg-slate-900; }
+  ::-webkit-scrollbar-thumb { @apply bg-slate-700 rounded-full; }
+}
+
+.react-flow__node { cursor: pointer; }
+.react-flow__controls button { background: #1e293b; border-color: #334155; color: #94a3b8; }
+.react-flow__controls button:hover { background: #334155; }
